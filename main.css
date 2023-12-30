@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: rgb(86, 193, 255);
+}
+
+.logo, .formulario,table{
+    display: flex;
+    margin: 0 auto;
+    width: 50vw;
+}
+.logo{
+    margin-top: 3vw;
+    margin-bottom: 3vw;
+}
+.container{
+    display: flex;
+    align-items: center;
+}
+
+.container img{
+    width: 4vw;
+    margin-right: 2vw;
+}
+
+.container p{
+    font-size: 2.6vw;
+    font-weight: 600;
+}
+
+.formulario form input, button{
+    height: 1.8vw;
+    border: none;
+    border-bottom: 2px solid black;
+    margin-right: 4vw;
+    font-size: 1.3vw;
+    outline: none;
+}
+.formulario form button{
+    width: 7.5vw;
+    padding: 0.2vw;
+    background-color: rgba(2, 139, 2, 0.822);
+    color: #fff;
+    cursor: pointer;
+}
+
+#phone{
+    width: 10.2vw;
+}
+
+table{
+    display: table;
+    margin-top: 3vw;
+}
+
+table tr{
+    display: flex;
+    justify-content: space-between;
+}
+
+table thead tr{
+    font-size: 1.6vw;
+    color: #2c2b2b;
+    padding-bottom: 0.5vw;
+    margin-bottom: 1.5vw;
+    border-bottom: 2px solid rgb(36, 35, 35);
+}
+table tbody tr{
+    font-size: 1.1vw;
+    padding-bottom: 0.7vw;
+    margin-bottom: 1.2vw;
+    border-bottom: 1px solid rgb(73, 73, 73);
+}
+table tr th, td{
+    width: 100%;
+    text-align: center;
+}
